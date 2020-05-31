@@ -6,4 +6,4 @@ Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
 
 Final author: Aleena Biju
-Created by Aleena Biju
+Developed by Aleena Biju
