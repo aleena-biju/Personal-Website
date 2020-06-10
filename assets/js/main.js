@@ -207,7 +207,7 @@ $('a[href*="#"]:not([href="#"])').on('click', function() {
         top_space = $('#header').outerHeight();
 
         if (!$('#header').hasClass('header-fixed')) {
-          top_space = top_space - 590;
+          top_space = top_space - 580;
         }
       }
 
