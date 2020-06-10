@@ -156,6 +156,11 @@ h1, h2, h3, h4, h5, h6 {
 .sticky + section{
   padding-top: 102px;
 }
+
+.sticky{
+  margin-left: 40px;
+}
+
 .nav-menu ul {
   display: flex;
   margin: 0;
