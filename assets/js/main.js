@@ -8,6 +8,18 @@
   "use strict";
 
   // Nav Menu
+  window.onscroll=function(){
+    myFunction()
+  };
+  var navbar=document.getElementById("nav");
+  var sticky=navbar.offsetTop;
+  function myFunction(){
+    if(window.pageYOffset>sticky){
+      navbar.classList.add("sticky");
+    }else {
+      navbar.classList.remove("sticky");
+    }
+  }
   /*$(document).on('click', '.nav-menu a, .mobile-nav a', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var hash = this.hash;
@@ -195,7 +207,7 @@ $('a[href*="#"]:not([href="#"])').on('click', function() {
         top_space = $('#header').outerHeight();
 
         if (!$('#header').hasClass('header-fixed')) {
-          top_space = top_space - 630;
+          top_space = top_space - 600;
         }
       }
 
