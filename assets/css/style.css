@@ -1061,9 +1061,8 @@ section .container {
 # Credits
 --------------------------------------------------------------*/
 .credits {
-  position: fixed;
+  text-align: center;
   right: 15px;
-  bottom: 15px;
   font-size: 13px;
   color: #fff;
   z-index: 1;
