@@ -16,6 +16,12 @@ body {
   background: black;
 }
 
+@media print {
+  html,body {
+    display: none;
+  }
+}
+
 header{
   content: "";
   position: fixed;
